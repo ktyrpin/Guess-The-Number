@@ -23,7 +23,7 @@ def guess_the_number():
                 break
             if guess < random_number:
                 print("Guess again. Too low")
-            if guess >  random_number:
+            if guess > random_number:
                 print("Guess again. Too high")
         
         choice = play_again()
